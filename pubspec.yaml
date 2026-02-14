@@ -1,0 +1,37 @@
+name: ar_kids_zoo
+description: "A kid-friendly AR zoo app."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.6
+  ar_flutter_plugin_2: 0.0.3   # ← OLD wala hatao, YEH lagao
+  vector_math: ^2.1.4
+  shared_preferences: ^2.5.4
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+  flutter_launcher_icons: ^0.13.1
+
+flutter_icons:
+  android: true
+  ios: false
+  image_path: "assets/icons/img3.png"
+
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/models/lion.glb
+    - assets/models/Elephant.glb
+    - assets/models/Horse.glb
+    - assets/models/Cow.glb
+    - assets/models/Penguin.glb
+    - assets/models/Flamingo.glb
